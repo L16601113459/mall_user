@@ -1,0 +1,5 @@
+	<jaxrs:server address="/loginRest">
+		<jaxrs:serviceBeans>
+			<bean class="com.atguigu.server.LoginServerImpl"></bean>
+		</jaxrs:serviceBeans>
+	</jaxrs:server>
